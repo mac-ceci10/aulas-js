@@ -62,6 +62,7 @@ const soma1 = (valor1,valor2) => valor1 + valor2;
 console.log(soma1(1055,500));
 
 console.log(soma(10,5));
+
 //console.log(total); // erro, pois é variável local
 
 // let resultado = soma (100,5);
@@ -93,9 +94,7 @@ linha();
 
 const dobra = numero => numero*2;
 
-
 linha();
-
 
 console.log (dobra(40));
 console.log (dobra(900));
