@@ -4,11 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Plugin Slick Slider</title>
+<link rel="stylesheet" href="slick/slick.css">
+<link rel="stylesheet" href="slick/slick-theme.scss">
+
 <style>
     body { background-color: lightblue; }  
     #slider {
         margin: auto;
-        width: 549px;
+        width: 80%;
     }
 </style>
   
@@ -35,6 +38,21 @@
     </div>
 </div>    
 
+
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="slick/slick.min.js"></script>
+
+
+<script>
+                           $(document).ready(function(){
+            $('#slider').slick({
+                autoplay: true,
+                autoplaySpeed: 4000
+
+            });
+
+});
+</script>
 
 </body>
     
